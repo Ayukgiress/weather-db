@@ -2,9 +2,9 @@ import createError from "http-errors";
 import express from "express";
 import cookieParser from "cookie-parser";
 import logger from "morgan";
+import cors from 'cors';
 
 import indexRouter from "./routes/index.js";
-import cors from 'cors'
 const PORT = 5000;
 // import userRouter from "./routes/users.js"
 
